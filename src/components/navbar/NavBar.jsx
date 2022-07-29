@@ -1,5 +1,4 @@
 //CSS
-import styles from './NavBar.module.css'
 import './NavBar.css'
 
 //components
