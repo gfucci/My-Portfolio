@@ -1,5 +1,3 @@
-import styles from './Certifications.module.css'
-
 const Certifications = () => {
   return (
     <div>

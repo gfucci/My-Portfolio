@@ -7,7 +7,7 @@
 }
 
 .sidebar li {
-    padding: 10px;
+    padding: 15px;
     text-align: center;
 }
 
@@ -16,16 +16,16 @@
     font-weight: bold; 
 }
 
-.sidebar a:hover {
+.sidebar li a:hover {
     text-decoration: underline;
 }
 
 .sidebar_container {
     position: absolute;
-    width: 200px;
+    width: 225px;
 }
 
-.logo {
+.images {
     display: block;
     position: relative;
     width: 160px;
@@ -34,5 +34,7 @@
     margin-right: auto;
     border-radius: 50%;
     margin-bottom: 20px;
+    background-image: url(../../assets/img/perfil.jpeg);
+    background-position: center;
+    background-size: cover;
 }
-

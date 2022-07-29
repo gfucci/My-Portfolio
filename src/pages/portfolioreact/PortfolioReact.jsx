@@ -1,5 +1,3 @@
-import styles from './PortfolioReact.module.css'
-
 const PortfolioReact = () => {
   return (
     <div>

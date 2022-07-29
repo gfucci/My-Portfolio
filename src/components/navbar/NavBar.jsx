@@ -11,7 +11,7 @@ const NavBar = () => {
         <div className="sidebar_container">
             <nav>
                 <NavLink to="/">
-                    <img src={perfil} alt="foto de perfil" className='logo'/>
+                    <div className="images"></div>
                 </NavLink>
                 <ul>
                     <li>
@@ -36,7 +36,7 @@ const NavBar = () => {
                     </li>
                     <li>
                         <NavLink to="portfoliosites">
-                            Portfólio Site Estático
+                            Portfólio Sites Estáticos
                         </NavLink>
                     </li>
                     <li>
