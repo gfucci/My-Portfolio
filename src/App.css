@@ -1,0 +1,16 @@
+.App {
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    padding: 5px;
+}
+
+.main_content {
+    position: absolute;
+    left: 225px;
+    width: calc(100% - 225px);
+}

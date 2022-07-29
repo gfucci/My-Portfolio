@@ -23,14 +23,18 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <NavBar />
-        <Routes>
-          <Route path='/' element={<About />} />
-          <Route path='/education' element={<Education />} />
-          <Route path='/carrer' element={<Carrer />} />
-          <Route path='/portfolioreact' element={<PortfolioReact />} />
-          <Route path='/portfoliosites' element={<PortfolioSites />} />
-          <Route path='/certifications' element={<Certifications />} />
-        </Routes>
+        <main>
+          <div className="main_content">
+            <Routes>
+              <Route path='/' element={<About />} />
+              <Route path='/education' element={<Education />} />
+              <Route path='/carrer' element={<Carrer />} />
+              <Route path='/portfolioreact' element={<PortfolioReact />} />
+              <Route path='/portfoliosites' element={<PortfolioSites />} />
+              <Route path='/certifications' element={<Certifications />} />
+            </Routes>
+          </div>
+        </main>
       </BrowserRouter>
       <Footer />
     </div>
