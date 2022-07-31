@@ -1,0 +1,14 @@
+.category_title {
+    font-size: 28px;
+    color: #7f00e0;
+    font-weight: bold;
+    padding: 30px;
+    margin-bottom: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.icon_title {
+    margin-right: 10px;
+}

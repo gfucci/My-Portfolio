@@ -1,7 +1,14 @@
+//CSS
+import Title from '../../components/title/title'
+import './PortfolioReact.css'
+
+//components
+import { FaReact } from 'react-icons/fa'
+
 const PortfolioReact = () => {
   return (
     <div>
-      <h2>Portfólio React</h2>
+      <Title title="Portfólio React" icon={<FaReact />} />
       <a href="/">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium provident praesentium dignissimos molestias harum veritatis laborum nam libero nulla vitae eligendi iste quos explicabo ducimus fugiat possimus, obcaecati optio tenetur.</a>
     </div>
   )

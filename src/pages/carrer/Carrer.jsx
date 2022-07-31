@@ -1,10 +1,14 @@
+//CSS
+import './Carrer.css'
+
+//components
+import { FaBusinessTime } from 'react-icons/fa'
+import Title from '../../components/title/title'
+
 const Carrer = () => {
   return (
     <div>
-      <div>
-        <img src="" alt="" />
-        <h2>Carreira</h2>
-      </div>
+      <Title title="Carreira" icon={<FaBusinessTime />} />
       <div className='carrer_description'>
         <h3>Clemar Engenharia</h3>
         <span>Estagiário | 2016 - 2017</span>

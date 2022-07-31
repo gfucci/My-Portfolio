@@ -1,10 +1,14 @@
+//CSS
+import './Education.css'
+
+//components
+import Title from "../../components/title/title"
+import { MdSchool } from 'react-icons/md' 
+
 const Education = () => {
   return (
     <div>
-      <div>
-        <img src="" alt="" />
-        <h2>Formação</h2>
-      </div>
+      <Title title='Formação' icon={<MdSchool />} />
       <div>
         <h3>Sistemas de Informação</h3>
         <p>Estácio de Sá - Campus Florianópolis | 2022 - 2025 | 2° Semestre | Cursando</p>
