@@ -1,11 +1,13 @@
 footer {
-    position: absolute;
-    left: 225px;
     height: 125px;
+    left: 225px;
     width: calc(100% - 225px);
     background-color: rgb(235, 235, 235);
-    top: calc(100% - 125px);
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 
 footer p {

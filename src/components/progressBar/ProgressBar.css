@@ -1,0 +1,20 @@
+.progress_container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.progressbar {
+    width: 200px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #4d4d4d;
+    box-sizing: border-box;
+}
+
+.progressbar .progress {
+    height: 100%;
+    border-radius: 10px;
+    background-color: #8e37d1;
+    box-sizing: border-box;
+}

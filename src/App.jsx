@@ -23,8 +23,8 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <NavBar />
-        <main>
-          <div className="main_content">
+        <div className="main_content">
+          <main >
             <Routes>
               <Route path='/' element={<About />} />
               <Route path='/education' element={<Education />} />
@@ -33,8 +33,8 @@ function App() {
               <Route path='/portfoliosites' element={<PortfolioSites />} />
               <Route path='/certifications' element={<Certifications />} />
             </Routes>
-          </div>
-        </main>
+          </main>
+        </div>
       </BrowserRouter>
       <Footer />
     </div>
