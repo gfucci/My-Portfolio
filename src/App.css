@@ -15,3 +15,26 @@ a {
     width: calc(100% - 225px);
     min-height: 85vh;
 }
+
+ button {
+    display: flex;
+    padding: 10px 15px;
+    flex-direction: column;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 15px 0px;
+    font-size: 16px;
+    background-color: #7f00e0;
+    font-weight: bold;
+    border: 1px solid transparent;
+    opacity: .7;
+    transition: .5s;
+}
+
+button a {
+    color: #FFF;
+}
+
+button:hover {
+    opacity: 1;
+}
