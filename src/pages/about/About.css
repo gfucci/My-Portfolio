@@ -10,16 +10,76 @@
     text-align: left;
     line-height: 1.57;
     font-style: italic;
+    font-size: 18px;
+    color: #333;
 }
 
 #about_container ul {
-    margin-left: auto;
+    margin-left: 0;
     margin-right: auto;
     padding: 25px;
+    padding-left: 0;
     width: 40%;
 }
 
 #about_container ul li {
     width: 100%;
     margin-bottom: 20px;
+}
+
+#contacts {
+    margin-top: 25px;
+    height: 100%;
+    font-size: 16px;
+    position: relative;
+}
+
+#contacts h2, #about_container h3 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#contacts svg {
+    font-size: 20px;
+    color: #7f00e0;
+}
+
+#contacts ul {
+    width: 100%;
+    padding-left: 0;
+    padding-top: 15px;
+}
+
+#contacts span {
+    position: relative;
+    margin-left: 10px;
+    top: -5px;
+    font-style: italic;
+}
+
+#contacts a:hover {
+    color: #5746f5;
+}
+
+#about_container button {
+    display: flex;
+    padding: 10px 15px;
+    flex-direction: column;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 15px 0px;
+    font-size: 16px;
+    background-color: #7f00e0;
+    font-weight: bold;
+    border: 1px solid transparent;
+    opacity: .7;
+    transition: .5s;
+}
+
+#about_container button a {
+    color: #FFF;
+}
+
+#about_container button:hover {
+    opacity: 1;
 }
