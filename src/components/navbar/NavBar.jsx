@@ -2,18 +2,22 @@
 import './NavBar.css'
 
 //components
-import { NavLink } from 'react-router-dom'
-import perfil from '../../assets/img/perfil.jpeg'
+import { NavLink, useNavigate } from 'react-router-dom'
 
 const NavBar = () => {
+
+    let navigate = useNavigate()
+
+    const handleNavigation = () => {
+        navigate("/", { replace: true })
+    }
+
   return (
     <div className="sidebar">
         <div className="sidebar_container">
             <nav>
-                <NavLink to="/">
-                    <div className="images"></div>
-                </NavLink>
-                <ul>
+                <div className="images" onClick={handleNavigation} ></div>
+                <ul id='links'>
                     <li>
                         <NavLink to="/">
                             Sobre Mim
@@ -36,7 +40,7 @@ const NavBar = () => {
                     </li>
                     <li>
                         <NavLink to="portfoliosites">
-                            Portfólio Sites Estáticos
+                            Portfólio Sites
                         </NavLink>
                     </li>
                     <li>

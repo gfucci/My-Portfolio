@@ -11,9 +11,8 @@
     text-align: center;
 }
 
-.sidebar a {
-    color: #FFF;
-    font-weight: bold; 
+ .sidebar a {
+    font-weight: bold;
 }
 
 .sidebar li a:hover {
@@ -37,4 +36,12 @@
     background-image: url(../../assets/img/perfil.jpeg);
     background-position: center;
     background-size: cover;
+    cursor: pointer;
+}
+
+.active {
+    background-color: #FFF;
+    color: #7f00e0;
+    padding: 5px 10px;
+    border-radius: 10px;
 }

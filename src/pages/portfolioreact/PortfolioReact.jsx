@@ -1,15 +1,20 @@
 //CSS
-import Title from '../../components/title/title'
 import './PortfolioReact.css'
 
 //components
 import { FaReact } from 'react-icons/fa'
+import Text from '../../components/text/Text'
+import Title from '../../components/title/title'
 
 const PortfolioReact = () => {
   return (
-    <div>
+    <div id='react_container'>
       <Title title="Portfólio React" icon={<FaReact />} />
-      <a href="/">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium provident praesentium dignissimos molestias harum veritatis laborum nam libero nulla vitae eligendi iste quos explicabo ducimus fugiat possimus, obcaecati optio tenetur.</a>
+      <Text 
+        title="ReactGram" 
+        subtitle="HTML5 | CSS3 | JavaScript | MongoDB | Express.js | React.js | Node.js" 
+      />
+      <div id="box_container"></div>
     </div>
   )
 }
