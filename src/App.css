@@ -38,3 +38,7 @@ button a {
 button:hover {
     opacity: 1;
 }
+
+button a:hover {
+    text-decoration: none   ;
+}
