@@ -15,8 +15,6 @@ import Carrer from './pages/carrer/Carrer'
 import PortfolioReact from './pages/portfolioreact/PortfolioReact'
 import PortfolioSites from './pages/portfoliosites/PortfolioSites'
 import Certifications from './pages/certifications/Certifications'
-import Projects from './pages/projects/Projects'
-
 
 function App() {
 
