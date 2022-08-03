@@ -20,7 +20,7 @@ const Education = () => {
             subtitle="Estácio de Sá" 
             year="2022 - 2025" 
             study="Cursando"
-            graduate="Formado"
+            graduate="2° Semestre"
           />
         </li>
         <li>
