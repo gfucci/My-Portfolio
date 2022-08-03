@@ -54,4 +54,5 @@
     word-wrap: break-word;
     padding: 10px;
     box-sizing: border-box;
+    line-height: 1.20;
 }
