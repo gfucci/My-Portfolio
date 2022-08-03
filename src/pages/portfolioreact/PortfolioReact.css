@@ -6,3 +6,8 @@
     margin-right: auto;
     height: 100%;
 }
+
+#special_box svg {
+    color: #ebc700;
+    display: inline-block;;
+}

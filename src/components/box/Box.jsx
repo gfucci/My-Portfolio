@@ -1,14 +1,14 @@
 //CSS
 import './Box.css'
 
-//Components
-import { Link } from 'react-router-dom'
+//components
+import { FaStar } from 'react-icons/fa'
 
-const Box = ({ title, subtitle, preview }) => {
+const Box = ({ title, subtitle, preview, site, code, id }) => {
   return (
-    <div id='box_container'>
+    <div class='box_container' id={id}>
         <div className="header">
-            <h3>{title}</h3>
+            <h3>{title} {id && <FaStar /> }</h3>
             <p>{subtitle}</p>
         </div>
         <div className='preview'>
@@ -16,10 +16,10 @@ const Box = ({ title, subtitle, preview }) => {
         </div>
         <div className="buttons">
             <button>
-                <a href="">Site</a>
+                <a href={`${site}`} target="_blank" rel="noreferrer noopener">Site</a>
             </button>
             <button>
-                <a href="">GitHub</a>
+                <a href={`${code}`} target="_blank" rel="noreferrer noopener">GitHub</a>
             </button>
         </div>
     </div>
