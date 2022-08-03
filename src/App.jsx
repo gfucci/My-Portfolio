@@ -15,6 +15,7 @@ import Carrer from './pages/carrer/Carrer'
 import PortfolioReact from './pages/portfolioreact/PortfolioReact'
 import PortfolioSites from './pages/portfoliosites/PortfolioSites'
 import Certifications from './pages/certifications/Certifications'
+import Projects from './pages/projects/Projects'
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
               <Route path='/portfolioreact' element={<PortfolioReact />} />
               <Route path='/portfoliosites' element={<PortfolioSites />} />
               <Route path='/certifications' element={<Certifications />} />
+              <Route path='/projects/:id' element={<Projects />} />
             </Routes>
           </main>
         </div>
