@@ -3,7 +3,7 @@ import './Certifications.css'
 
 //components
 import { TbCertificate } from 'react-icons/tb'
-import Title from '../../components/title/title'
+import Title from '../../components/title/Title'
 import Text from '../../components/text/Text'
 
 const Certifications = () => {
