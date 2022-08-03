@@ -2,7 +2,7 @@
 import './Education.css'
 
 //components
-import Title from "../../components/title/title"
+import Title from "../../components/title/Title"
 import { MdSchool } from 'react-icons/md' 
 import Text from '../../components/text/Text'
 
