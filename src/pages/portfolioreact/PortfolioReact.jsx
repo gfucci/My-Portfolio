@@ -3,7 +3,7 @@ import './PortfolioReact.css'
 
 //components
 import { FaReact } from 'react-icons/fa'
-import Title from '../../components/title/title'
+import Title from '../../components/title/Title'
 import Box from '../../components/box/Box'
 
 const PortfolioReact = () => {

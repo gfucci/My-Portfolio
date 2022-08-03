@@ -3,7 +3,7 @@ import './PortfolioSites.css'
 
 //components
 import { FaHtml5 } from 'react-icons/fa'
-import Title from '../../components/title/title'
+import Title from '../../components/title/Title'
 import Box from '../../components/box/Box'
 
 const PortfolioSites = () => {

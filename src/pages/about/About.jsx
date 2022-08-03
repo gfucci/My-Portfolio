@@ -2,7 +2,7 @@
 import './About.css'
 
 //components
-import Title from '../../components/title/title'
+import Title from '../../components/title/Title'
 import ProgressBar from '../../components/progressBar/ProgressBar'
 import { FaWhatsapp, FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa'
 import { MdEmail, MdLocationOn } from 'react-icons/md'

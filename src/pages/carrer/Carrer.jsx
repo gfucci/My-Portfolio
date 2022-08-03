@@ -3,7 +3,7 @@ import './Carrer.css'
 
 //components
 import { FaBusinessTime } from 'react-icons/fa'
-import Title from '../../components/title/title'
+import Title from '../../components/title/Title'
 import Text from '../../components/text/Text'
 
 const Carrer = () => {
