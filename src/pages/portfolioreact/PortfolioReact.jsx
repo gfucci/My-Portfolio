@@ -12,10 +12,10 @@ const PortfolioReact = () => {
       <Title title="Portfólio React" icon={<FaReact />} />
       <div className="boxes_container">
         <Box
-          title="ReactGram"
+          title="ReactGram "
           subtitle="MERN Project"
           preview="Rede social para compartilhar fotos"
-          site=""
+          site="https://github.com/gfucci/ReactGram"
           code="https://github.com/gfucci/ReactGram"
           id='special_box'
         />
