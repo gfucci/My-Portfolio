@@ -4,7 +4,7 @@ import './Box.css'
 //Components
 import { Link } from 'react-router-dom'
 
-const Box = ({ title, subtitle, preview, id }) => {
+const Box = ({ title, subtitle, preview }) => {
   return (
     <div id='box_container'>
         <div className="header">
@@ -16,7 +16,10 @@ const Box = ({ title, subtitle, preview, id }) => {
         </div>
         <div className="buttons">
             <button>
-                <Link to={`/projects/${id}`}>Saiba Mais</Link>
+                <a href="">Site</a>
+            </button>
+            <button>
+                <a href="">GitHub</a>
             </button>
         </div>
     </div>

@@ -33,7 +33,6 @@ function App() {
               <Route path='/portfolioreact' element={<PortfolioReact />} />
               <Route path='/portfoliosites' element={<PortfolioSites />} />
               <Route path='/certifications' element={<Certifications />} />
-              <Route path='/projects/:id' element={<Projects />} />
             </Routes>
           </main>
         </div>
