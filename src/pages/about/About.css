@@ -107,6 +107,11 @@
     margin-right: 44.9px;
 }
 
+#front_skills,
+#back_skills {
+    margin-bottom: 30px;
+}
+
 #language_skills, 
 #back_skills {
     margin-right: 0px;
