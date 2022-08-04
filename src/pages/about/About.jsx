@@ -7,54 +7,65 @@ import ProgressBar from '../../components/progressBar/ProgressBar'
 import { FaWhatsapp, FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa'
 import { MdEmail, MdLocationOn } from 'react-icons/md'
 import pdf from '../../assets/pdf/CURRÍCULO_GABRIEL_FUCCI.pdf'
+import Box from '../../components/box/Box'
 
 const About = () => {
   return (
     <div id='about_container'>
       <Title title='Gabriel Amaral Fucci' />
-      <p>Sou técnico agrimensor, por falta de identificação com a área, resolvi fazer transição de carreira para área de TI. Hoje o assunto que mais domino é programação web em front-end. Estou estudando com foco em virar full stack.</p>
+      <p>Olá, sou um programador! Hoje o assunto que mais domino é programação web front-end, e estou estudando com foco em virar full stack. Além de TI também tenho conhecimentos na área de agrimensura e economia.</p>
+      <h3>Contato</h3>
       <div id="contacts">
-        <h2>Contato</h2>
-        <ul id='contact_list'>
-          <li>
-            <a href="https://goo.gl/maps/1n1kP4idD1uekdtM7" target="_blank" rel="noreferrer noopener">
-              <MdLocationOn />
-              <span>Florianópolis, SC.</span>
-            </a>
-          </li>
-          <li>
-            <a href="mailto: gfucci_2005@hotmail.com" target="_blank" rel="noreferrer noopener">
-              <MdEmail />
-              <span>gfucci_2005@hotmail.com</span>
-            </a>
-          </li>
-          <li>
-            <a href="https://api.whatsapp.com/send?phone=5548991316103" target="_blank" rel="noreferrer noopener">
-              <FaWhatsapp />
-              <span>(48) 99131-6103</span>
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/gfucci" target="_blank" rel="noreferrer noopener">
-              <FaGithub />
-              <span>github.com/gfucci</span>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/gabrielfucci/" target="_blank" rel="noreferrer noopener">
-              <FaLinkedin />
-              <span>linkedin.com/gabrielfucci</span>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/gabrielfucci_/" target="_blank" rel="noreferrer noopener">
-              <FaInstagram />
-              <span>instagram.com/gabrielfucci_</span>
-            </a>
-          </li>
-        </ul>
+        <div id='contact1'>
+          <ul>
+            <li>
+              <a href="https://api.whatsapp.com/send?phone=5548991316103" target="_blank" rel="noreferrer noopener">
+                <FaWhatsapp />
+                <span>(48) 99131-6103</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/gfucci" target="_blank" rel="noreferrer noopener">
+                <FaGithub />
+                <span>github.com/gfucci</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div id='contact2'>
+          <ul>
+            <li>
+              <a href="https://www.linkedin.com/in/gabrielfucci/" target="_blank" rel="noreferrer noopener">
+                <FaLinkedin />
+                <span>linkedin.com/gabrielfucci</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/gabrielfucci_/" target="_blank" rel="noreferrer noopener">
+                <FaInstagram />
+                <span>instagram.com/gabrielfucci_</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div id='contact3'>
+          <ul>
+            <li>
+              <a href="https://goo.gl/maps/1n1kP4idD1uekdtM7" target="_blank" rel="noreferrer noopener">
+                <MdLocationOn />
+                <span>Florianópolis, SC.</span>
+              </a>
+            </li>
+            <li>
+              <a href="mailto: gfucci_2005@hotmail.com" target="_blank" rel="noreferrer noopener">
+                <MdEmail />
+                <span>gfucci_2005@hotmail.com</span>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <h3>Competências</h3>
+      {/*<h3>Competências</h3>
       <ul>
         <li>
           <ProgressBar 
@@ -156,7 +167,7 @@ const About = () => {
       </button>
       <button>
         <a href={pdf} download>PDF deste portfólio</a>
-      </button>
+      </button>*/}
     </div>
   )
 }

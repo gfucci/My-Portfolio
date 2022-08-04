@@ -2,66 +2,77 @@
     color: #000;
 }
 
-#about_container {
-    padding: 10px 40px;
-}
-
 #about_container p {
-    text-align: left;
+    text-align: justify;
     line-height: 1.57;
     font-style: italic;
     font-size: 18px;
     color: #333;
-}
-
-#about_container ul {
-    margin-left: 0;
+    width: 80%;
+    margin-left: auto;
     margin-right: auto;
-    padding: 25px;
-    padding-left: 0;
-    width: 40%;
 }
 
-#about_container ul li {
-    width: 100%;
-    margin-bottom: 20px;
+#about_container h3 {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 25px;
 }
 
 #contacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
     margin-top: 25px;
     height: 100%;
+    flex-wrap: wrap;
     font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
-}
-
-#contacts h2, #about_container h3 {
-    font-size: 22px;
-    font-weight: bold;
-}
-
-#contacts svg {
-    font-size: 20px;
-    color: #7f00e0;
 }
 
 #contacts ul {
-    width: 100%;
-    padding-left: 0;
-    padding-top: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-#contacts span {
-    position: relative;
+#contacts ul li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+#contacts li span {
     margin-left: 10px;
-    top: -5px;
     font-style: italic;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#contacts svg {
+    font-size: 18px;
+    position: relative;
+    bottom: -3px;
+    color: #7f00e0;
 }
 
 #contacts a {
-    color: #000;
+    color: #5746f5;
     text-decoration: none;
 }
 
 #contacts a:hover {
-    color: #5746f5;
+    color: #e69601;
+}
+
+#contact1 {
+    position: absolute;
+    left: 0;
+}
+
+#contact3 {
+    position: absolute;
+    right: 0;
 }
