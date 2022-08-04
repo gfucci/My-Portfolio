@@ -7,13 +7,12 @@ import ProgressBar from '../../components/progressBar/ProgressBar'
 import { FaWhatsapp, FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa'
 import { MdEmail, MdLocationOn } from 'react-icons/md'
 import pdf from '../../assets/pdf/CURRÍCULO_GABRIEL_FUCCI.pdf'
-import Box from '../../components/box/Box'
 
 const About = () => {
   return (
     <div id='about_container'>
       <Title title='Gabriel Amaral Fucci' />
-      <p>Olá, sou um programador! Hoje o assunto que mais domino é programação web front-end, e estou estudando com foco em virar full stack. Além de TI, sou formado em agrimensura e tenho conhecimentos de economia.</p>
+      <p>Olá! Sou um desenvolvedor web com conhecimentos em Front-end, estou estudando com o objetivo de me tornar Full Stack. Além de estar cursando Sistemas de Informação, sou formado em Agrimensura pelo IFSC e cursei até o 6° semestre em Ciências Econômicas.</p>
       <div id="buttons_about">
         <button>
           <a href="https://github.com/gfucci/My-Curriculum" target="_blank" rel="noreferrer noopener">Código do Portfólio</a>
