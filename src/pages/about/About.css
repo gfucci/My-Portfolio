@@ -11,6 +11,8 @@
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 30px;
+    height: 100%;
 }
 
 #about_container h3 {
@@ -20,7 +22,8 @@
     margin-top: 25px;
 }
 
-#contacts {
+#contacts,
+.skills_container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,6 +35,11 @@
     margin-left: auto;
     margin-right: auto;
     position: relative;
+
+}
+
+.skills_container {
+    margin-top: 40px;
 }
 
 #contacts ul {
@@ -75,4 +83,42 @@
 #contact3 {
     position: absolute;
     right: 0;
+}
+
+#about_container #front_title {
+    text-align: left;
+}
+
+#front_skills h3,
+#back_skills h3,
+#others_skills h3,
+#language_skills h3 {
+    margin-bottom: 30px;
+    margin-top: 0;
+    text-align: left;
+}
+
+#front_skills,
+#back_skills,
+#others_skills,
+#language_skills {
+    padding-bottom: 10px;
+    padding-right: 44.9px;
+    width: 45%;
+    min-height: 260px;
+}
+
+#language_skills,
+#back_skills {
+    padding-right: 0;
+    padding-left: 44.9px;
+}
+
+#front_skills li,
+#back_skills li,
+#others_skills li,
+#language_skills li {
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-style: italic;
 }
