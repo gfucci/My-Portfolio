@@ -126,16 +126,14 @@
 #buttons_about {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 #buttons_about button {
-    margin-right: 20px;
-    margin-left: 20px;
-    width: 40%;
+    width: 49%;
 }
 
 #buttons_about button a {
