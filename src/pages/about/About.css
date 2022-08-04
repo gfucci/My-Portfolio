@@ -122,3 +122,22 @@
     font-size: 18px;
     font-style: italic;
 }
+
+#buttons_about {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+#buttons_about button {
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 40%;
+}
+
+#buttons_about button a {
+    width: 100%;
+}

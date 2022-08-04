@@ -14,6 +14,14 @@ const About = () => {
     <div id='about_container'>
       <Title title='Gabriel Amaral Fucci' />
       <p>Olá, sou um programador! Hoje o assunto que mais domino é programação web front-end, e estou estudando com foco em virar full stack. Além de TI, sou formado em agrimensura e tenho conhecimentos de economia.</p>
+      <div id="buttons_about">
+        <button>
+          <a href="https://github.com/gfucci/My-Curriculum" target="_blank" rel="noreferrer noopener">Código do Portfólio</a>
+        </button>
+        <button>
+          <a href={pdf} download>PDF deste portfólio</a>
+        </button>
+      </div>
       <h3>Contato</h3>
       <div id="contacts">
         <div id='contact1'>
@@ -178,14 +186,7 @@ const About = () => {
           </ul>
         </div>
       </div>
-      {/*<h3>Competências</h3>
-      <h3>Links</h3>
-      <button>
-        <a href="https://github.com/gfucci/My-Curriculum" target="_blank" rel="noreferrer noopener">Código do Portfólio</a>
-      </button>
-      <button>
-        <a href={pdf} download>PDF deste portfólio</a>
-      </button>*/}
+      
     </div>
   )
 }
