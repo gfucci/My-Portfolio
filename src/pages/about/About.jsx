@@ -119,7 +119,13 @@ const About = () => {
           <ul>
             <li>
               <ProgressBar
-                technology="Firebase"
+                technology="MongoDB"
+                percent={60}
+              />
+            </li>
+            <li>
+              <ProgressBar
+                technology="php"
                 percent={25}
               />
             </li>
@@ -131,7 +137,7 @@ const About = () => {
             </li>
             <li>
               <ProgressBar
-                technology="php"
+                technology="Firebase"
                 percent={25}
               />
             </li>
@@ -145,12 +151,6 @@ const About = () => {
               <ProgressBar
                 technology="mySQL"
                 percent={15}
-              />
-            </li>
-            <li>
-              <ProgressBar
-                technology="MongoDB"
-                percent={60}
               />
             </li>
           </ul>
