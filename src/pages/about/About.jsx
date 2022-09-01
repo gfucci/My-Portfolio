@@ -131,7 +131,19 @@ const About = () => {
             </li>
             <li>
               <ProgressBar
+                technology="php"
+                percent={25}
+              />
+            </li>
+            <li>
+              <ProgressBar
                 technology="Express.js"
+                percent={15}
+              />
+            </li>
+            <li>
+              <ProgressBar
+                technology="mySQL"
                 percent={15}
               />
             </li>
@@ -150,6 +162,12 @@ const About = () => {
               <ProgressBar 
                 technology="Lógica de Programação"
                 percent={100}
+              />
+            </li>
+            <li>
+              <ProgressBar 
+                technology="Linux"
+                percent={90}
               />
             </li>
             <li>

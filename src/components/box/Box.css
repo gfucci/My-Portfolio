@@ -1,10 +1,11 @@
 .box_container {
     border: 1px solid #000;
-    width: 245px;
-    height: 100%;
+    width: 230px;
+    height: 300px;
     border-radius: 15px;
     box-sizing: border-box;
     margin: 0px 0px 25px 50px;
+    position: relative;
 }
 
 .header {
@@ -29,6 +30,12 @@
     font-style: italic;
     color: #333;
     text-align: center;
+}
+
+.buttons {
+    position: absolute;
+    top: 55%;
+    width: 100%;
 }
 
 .buttons button {

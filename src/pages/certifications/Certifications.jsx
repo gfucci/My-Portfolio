@@ -19,6 +19,12 @@ const Certifications = () => {
         </li>
         <li>
           <Text 
+            title="Linux para Desenvolvedores (c/ terminal, Shell, Apache e +)"
+            links="https://www.udemy.com/certificate/UC-3e28dbca-c2f7-4e64-92f3-461b82eb67d0/"
+          />
+        </li>
+        <li>
+          <Text 
             title="HTML5 e CSS3: Técnicas Avançadas (Com Flexbox e 5 Projetos)"
             links="https://www.udemy.com/certificate/UC-0e2b05b2-1198-4270-9a07-a046dc72049d/"
           />
