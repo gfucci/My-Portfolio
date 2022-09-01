@@ -150,7 +150,7 @@ const About = () => {
             <li>
               <ProgressBar
                 technology="MongoDB"
-                percent={15}
+                percent={60}
               />
             </li>
           </ul>
