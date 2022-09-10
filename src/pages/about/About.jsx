@@ -12,7 +12,7 @@ const About = () => {
   return (
     <div id='about_container'>
       <Title title='Gabriel Amaral Fucci' />
-      <p>Olá! Sou um desenvolvedor web com conhecimentos em Front-end, estou estudando com o objetivo de me tornar Full Stack. Além de estar cursando Sistemas de Informação, sou formado em Agrimensura pelo IFSC e cursei até o 6° semestre em Ciências Econômicas.</p>
+      <p>Olá! Sou um desenvolvedor web, estou estudando com o objetivo de me tornar Full Stack. Além de estar cursando Sistemas de Informação, sou formado em Agrimensura pelo IFSC e cursei até o 6° semestre em Ciências Econômicas.</p>
       <div id="buttons_about">
         <button>
           <a href="https://github.com/gfucci/My-Curriculum" target="_blank" rel="noreferrer noopener">Código do Portfólio</a>
@@ -97,19 +97,19 @@ const About = () => {
             <li>
               <ProgressBar 
                 technology="JavaScript"
-                percent={70}
+                percent={75}
               />
             </li>
             <li>
               <ProgressBar 
                 technology="Redux"
-                percent={35}
+                percent={20}
               />
             </li>
             <li>
               <ProgressBar 
                 technology="TypeScript"
-                percent={35}
+                percent={20}
               />
             </li>
           </ul>
@@ -126,7 +126,7 @@ const About = () => {
             <li>
               <ProgressBar
                 technology="php"
-                percent={25}
+                percent={40}
               />
             </li>
             <li>
@@ -139,12 +139,6 @@ const About = () => {
               <ProgressBar
                 technology="Firebase"
                 percent={25}
-              />
-            </li>
-            <li>
-              <ProgressBar
-                technology="Express.js"
-                percent={15}
               />
             </li>
             <li>
@@ -176,12 +170,6 @@ const About = () => {
                 percent={90}
               />
             </li>
-            <li>
-              <ProgressBar 
-                technology="ReactNative"
-                percent={10}
-              />
-            </li>
           </ul>
         </div>
         <div id="language_skills">
@@ -196,10 +184,9 @@ const About = () => {
             <li>
               <ProgressBar
                 technology="Inglês"
-                percent={25}
+                percent={35}
               />
             </li>
-
           </ul>
         </div>
       </div>

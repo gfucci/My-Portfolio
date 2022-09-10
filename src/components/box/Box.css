@@ -1,5 +1,5 @@
 .box_container {
-    border: 1px solid #000;
+    border: 1px solid #B9B9B9;
     width: 230px;
     height: 300px;
     border-radius: 15px;
@@ -23,6 +23,7 @@
     margin-top: 15px;
     margin-bottom: 5px;
     text-align: center;
+    padding: 10px;
 }
 
 .header p {

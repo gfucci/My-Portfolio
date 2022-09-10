@@ -6,7 +6,7 @@ import { FaStar } from 'react-icons/fa'
 
 const Box = ({ title, subtitle, preview, site, code, id }) => {
   return (
-    <div class='box_container' id={id}>
+    <div className='box_container' id={id}>
         <div className="header">
             <h3>{title} {id && <FaStar /> }</h3>
             <p>{subtitle}</p>

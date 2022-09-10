@@ -12,19 +12,12 @@ const PortfolioReact = () => {
       <Title title="Portfólio React" icon={<FaReact />} />
       <div className="boxes_container">
         <Box
-          title="ReactGram "
-          subtitle="MERN Project"
-          preview="Rede social para compartilhar fotos"
-          site="https://github.com/gfucci/ReactGram"
-          code="https://github.com/gfucci/ReactGram"
-          id='special_box'
-        />
-        <Box
           title="React Blog"
           subtitle="React.js | Firebase"
           preview="Blog feito em react e firebase."
           site="https://react-blog-gfucci.vercel.app/"
           code="https://github.com/gfucci/react-blog"
+          id='special_box'
         />
         <Box
           title="React Product Manager"
